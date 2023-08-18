@@ -241,6 +241,32 @@
 
                 /* End main page */
 
+                /* start result page */
+            
+                .all{
+                /* border: 1px solid #383D50; */
+                background: #383d50;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                font-weight:lighter ;
+                font-size: 200%;
+                color:#FF6666;
+                border-radius: 40px;
+                width: 50%;
+                height: 100vh;
+                margin-top:6% ;
+                margin-left:25%;
+            }
+            .all p , img{
+                margin-top:10% ;
+                background: #383d50f8;
+
+            }
+
+                 /* end result page */
+
 
 
 }
