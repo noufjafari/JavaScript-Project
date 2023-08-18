@@ -125,10 +125,7 @@
 
         /* End main page */
 
-
-
-                /* start result page */
-            
+        /* start result page */       
                 .all{
                     /* border: 1px solid #383D50; */
                     background: #383d50;
@@ -224,7 +221,7 @@
     /* End index page */
 
 
-        /* Start main page */
+    /* Start main page */
 
         .nav p{
             border: 1px solid rgb(0, 255, 17); 
@@ -273,9 +270,9 @@
     
         }  
 
-                /* End main page */
+    /* End main page */
 
-                /* start result page */
+        /* start result page */
             
                 .all{
                 /* border: 1px solid #383D50; */
@@ -303,8 +300,6 @@
                 background: #383d50f8;
 
             }
-                 /* end result page */
-
-
+        /* end result page */
 
 }
