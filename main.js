@@ -2,11 +2,18 @@
 const windoor =
 "girlopendoor.svg";
 
-function change(){
-    let door3 = document.getElementById("door3")
-    if( door3.src=="doorlock.svg" ){
-        door3.src=windoor;
-        location.href = "./resultPage.html"  
-    }
+function changewin(){
+    let img = document.getElementById("door3")
+    img.src="girlopendoor.svg"
 
 }
+
+
+function changenext(){
+
+}
+
+function changeloss(){
+    
+}
+
