@@ -1,3 +1,9 @@
+//go to the game page
+function startgame(){
+    location.href = "./mainPage.html"  
+
+}
+
 //level 1
 //if win goes to nextpage
 function changewin(){
