@@ -78,7 +78,7 @@
             /* Start index page */
 
     .container{
-        /* border: 1px solid red;  */
+        border: 1px solid red; 
         width: auto;
         height: 100vh;
         display: flex;
@@ -144,10 +144,57 @@
 
 
         /* Start main page */
-.card-img-top{
-    border: none;
-}
 
+        .nav{
+            /* border: 1px solid rgb(255, 102, 0);  */
+            display: flex;
+
+        }
+        .thetimer{
+            text-align: right;
+            margin-right: 40px;
+    
+        }
+        .thename{
+        text-align: start;
+        margin-left: 40px;
+
+        }
+
+        .text{
+            /* border: 1px solid rgb(0, 255, 17);  */
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        .text img{
+            /* border: 1px solid rgb(255, 179, 0);  */
+            width: 70%;
+        }
+        .Cards{
+            /* border: 1px solid rgb(93, 0, 255);  */
+            display: flex;
+            flex-direction: row;
+        }
+
+        .thecard{
+        border: 1px solid rgb(93, 0, 255); 
+
+        width: 60%;
+        height: 90%; 
+        margin: 2%;
+        }
+
+        .btucard {
+            font-weight:bolder ;
+            font-size: x-large;
+            text-align:center;
+            width: 50%;
+            height: 6vh;
+            border: none;
+    
+        }  
 
                 /* End main page */
 
