@@ -18,7 +18,8 @@ body{
     .container{
         border: 1px solid red; 
         width: auto;
-        height: 180vh;
+        height: 10
+        0vh;
         display: flex;
         flex-direction: column;
     }
