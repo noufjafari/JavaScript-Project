@@ -27,7 +27,7 @@
         flex-direction: column;
         align-items: center;
         /* لو ابغا ارفع شوي العب هنا */
-        margin-top: 30%;
+        margin-top:40%;
         gap: 10%;
     }
     .logo #logoname{
@@ -47,14 +47,14 @@
     justify-content: space-between;
     gap: 30px;
    }
-   .login #inputbox{
+   /* .login #inputbox{
         width: 50%;
         height: 6vh;
         border: none;
         background: #FFE7CE;
         color: #7d7a7a; 
         text-align: center;
-       }
+       } */
     .login button{
         font-weight:bolder ;
         font-size: x-large;
@@ -78,7 +78,7 @@
             /* Start index page */
 
     .container{
-        border: 1px solid red; 
+        /* border: 1px solid red;  */
         width: auto;
         height: 100vh;
         display: flex;
@@ -90,7 +90,7 @@
         flex-direction: column;
         align-items: center;
         /* لو ابغا ارفع شوي العب هنا */
-        margin-top: 5%;
+        margin-top: 10%;
         gap: 3%;
     }
     .logo #logoname{
@@ -122,15 +122,7 @@
     justify-content: space-between;
     gap: 30px;
    }
-   .login #inputbox{
-        width: 50%;
-        height: 6vh;
-        border: none;
-        background: #FFE7CE;
-        color: #7d7a7a;         
-        text-align: center;
 
-       }
     .login button{
         font-weight:bolder ;
         font-size: x-large;
@@ -145,20 +137,11 @@
 
         /* Start main page */
 
-        .nav{
-            /* border: 1px solid rgb(255, 102, 0);  */
-            display: flex;
-
-        }
-        .thetimer{
-            text-align: right;
-            margin-right: 40px;
-    
-        }
-        .thename{
-        text-align: start;
-        margin-left: 40px;
-
+        .nav p{
+            border: 1px solid rgb(0, 255, 17); 
+            margin: 10px;
+            margin-top: 30px;
+            text-align: center; 
         }
 
         .text{
@@ -175,22 +158,27 @@
         .Cards{
             /* border: 1px solid rgb(93, 0, 255);  */
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
         }
 
         .thecard{
-        border: 1px solid rgb(93, 0, 255); 
-
-        width: 60%;
-        height: 90%; 
-        margin: 2%;
+        /* border: 1px solid rgb(93, 0, 255);  */
+        display: flex; 
+        flex-direction: row;
+        align-items: center; 
         }
 
-        .btucard {
+    .btucard{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;          
+    }
+        .btucard button{
+            margin: 5% 10%;
             font-weight:bolder ;
             font-size: x-large;
             text-align:center;
-            width: 50%;
+            width: 20%;
             height: 6vh;
             border: none;
     
