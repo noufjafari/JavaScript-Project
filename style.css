@@ -65,6 +65,9 @@
        }
 
     /* End index page */
+    
+    /* Start main page */
+
     .nav p{
         border: 1px solid rgb(0, 255, 17); 
         margin: 10px;
@@ -120,9 +123,40 @@
 
     }   */
 
-        /* End index page */
+        /* End main page */
 
 
+
+                /* start result page */
+            
+                .all{
+                    /* border: 1px solid #383D50; */
+                    background: #383d50;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    font-weight:lighter ;
+                    font-size: 120%;
+                    color:#FF6666;
+                    border-radius: 40px;
+                    width: 50%;
+                    height: 50vh;
+                    margin-top:35% ;
+                    margin-left:25%;
+                }
+                .all p{
+                    margin-top:20% ;
+                    background: #383d50f8;
+    
+                }
+                .all img{
+                    margin-top:20% ;
+                    background: #383d50f8;
+    
+                }
+    
+                     /* end result page */
 
 }
 
@@ -259,12 +293,16 @@
                 margin-top:6% ;
                 margin-left:25%;
             }
-            .all p , img{
+            .all p{
                 margin-top:10% ;
                 background: #383d50f8;
 
             }
+            .all img{
+                margin-top:10% ;
+                background: #383d50f8;
 
+            }
                  /* end result page */
 
 
