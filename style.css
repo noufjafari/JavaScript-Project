@@ -19,7 +19,6 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
-
     }
     .logo{
         /* border: 1px solid blue;  */
@@ -66,6 +65,60 @@
        }
 
     /* End index page */
+    .nav p{
+        border: 1px solid rgb(0, 255, 17); 
+        margin: 10px;
+        margin-top: 30px;
+        text-align: center; 
+    }
+
+    .text{
+        /* border: 1px solid rgb(0, 255, 17);  */
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .text img{
+        /* border: 1px solid rgb(255, 179, 0);  */
+        width: 70%;
+    }
+    .Cards{
+        /* border: 1px solid rgb(93, 0, 255);  */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thecard{
+    /* border: 1px solid rgb(93, 0, 255);  */
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    }
+    .thecard img{
+    /* border: 1px solid rgb(93, 0, 255);  */
+    width: 50%; 
+    margin-bottom: 20%;      }
+
+/* 
+اعدل بعد ماسوي جافا
+
+.btucard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;          
+}
+
+    .btucard button{
+        margin: 5% 10%;
+        font-weight:bolder ;
+        font-size: x-large;
+        text-align:center;
+        width: 20%;
+        height: 6vh;
+        border: none;
+
+    }   */
 
         /* End index page */
 
@@ -83,6 +136,8 @@
         height: 100vh;
         display: flex;
         flex-direction: column;
+        margin-bottom: 10%;
+
     }
     .logo{
         /* border: 1px solid blue;  */
