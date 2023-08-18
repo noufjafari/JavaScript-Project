@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-image: url('thebackground.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: "cursive";
+}
+
+@media only screen and (max-width: 600px) {
+
+                /* Start index page */
+
+    .container{
+        /* border: 1px solid red;  */
+        width: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .logo{
+        /* border: 1px solid blue;  */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* لو ابغا ارفع شوي العب هنا */
+        margin-top: 30%;
+        gap: 10%;
+    }
+    .logo #logoname{
+        margin-bottom: 4%;
+        width: 60%;
+    }
+    .logo #logoimg{
+        width: 50%;
+    }
+
+   .login {
+    /* border: 1px solid blue;  */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+   }
+   .login #inputbox{
+        width: 50%;
+        height: 6vh;
+        border: none;
+        background: #FFE7CE;
+        color: #7d7a7a; 
+        text-align: center;
+       }
+    .login button{
+        font-weight:bolder ;
+        font-size: x-large;
+        text-align:center;
+        width: 50%;
+        height: 6vh;
+        border: none;
+
+       }
+
+    /* End index page */
+
+        /* End index page */
+
+
+
+}
+
+@media only screen and (min-width: 992px){
+
+            /* Start index page */
+
+    .container{
+        /* border: 1px solid red;  */
+        width: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{
+        /* border: 1px solid blue;  */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* لو ابغا ارفع شوي العب هنا */
+        margin-top: 5%;
+        gap: 3%;
+    }
+    .logo #logoname{
+        margin-bottom: 4%;
+        width: 40%;
+    }
+    .logo #logoimg{
+        width: 40%;
+        /* position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite; */
+    }
+    
+/* @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% {left:0px; top:0px;}
+  } */
+
+   .login {
+    /* border: 1px solid blue;  */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+   }
+   .login #inputbox{
+        width: 50%;
+        height: 6vh;
+        border: none;
+        background: #FFE7CE;
+        color: #7d7a7a;         
+        text-align: center;
+
+       }
+    .login button{
+        font-weight:bolder ;
+        font-size: x-large;
+        text-align:center;
+        width: 50%;
+        height: 6vh;
+        border: none;
+
+       }
+    /* End index page */
+
+
+        /* Start main page */
+.card-img-top{
+    border: none;
+}
+
+
+                /* End main page */
+
+
+
+}
