@@ -16,7 +16,6 @@ body{
                 /* Start index page */
 
     .container{
-        /* border: 1px solid red;  */
         width: auto;
         height: 10
         0vh;
@@ -24,11 +23,9 @@ body{
         flex-direction: column;
     }
     .logo{
-        /* border: 1px solid blue;  */
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* لو ابغا ارفع شوي العب هنا */
         margin-top:40%;
         gap: 10%;
     }
@@ -41,7 +38,6 @@ body{
     }
 
    .login {
-    /* border: 1px solid blue;  */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -49,14 +45,16 @@ body{
     justify-content: space-between;
     gap: 30px;
    }
-   /* .login #inputbox{
+
+          .login #inputbox{
         width: 50%;
         height: 6vh;
         border: none;
         background: #FFE7CE;
         color: #7d7a7a; 
         text-align: center;
-       } */
+       }
+
     .login button{
         font-weight:bolder ;
         font-size: x-large;
@@ -92,14 +90,12 @@ body{
         }
 
     .text{
-        /* border: 1px solid rgb(0, 255, 17);  */
         margin-top: 50px;
         margin-bottom: 50px;
         display: flex;
         justify-content: center;
     }
     .text img{
-        /* border: 1px solid rgb(255, 179, 0);  */
         width: 90%;
     }
 
@@ -110,19 +106,16 @@ body{
       }
 
     .Cards{
-        /* border: 1px solid rgb(93, 0, 255);  */
         display: flex;
         flex-direction: column;
     }
 
     .thecard{
-    /* border: 1px solid rgb(93, 0, 255);  */
     display: flex; 
     flex-direction: column;
     align-items: center; 
     }
     .thecard img{
-    /* border: 1px solid rgb(93, 0, 255);  */
     width: 40%; 
     margin-bottom: 5%;   
     margin-left: 30%;   }
@@ -161,7 +154,7 @@ body{
                     border-radius: 40px;
                     width: 50%;
                     height: 50vh;
-                    margin-top:35% ;
+                    margin-top:10% ;
                     margin-left:25%;
                 }
                 .all p{
@@ -174,6 +167,12 @@ body{
                     background: #383d50f8;
     
                 }
+
+                .home{
+                    width: 5%;
+                    margin-top: 20%;
+                    margin-left: 10%;
+                    }
     
                      /* end result page */
 
@@ -202,7 +201,6 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* لو ابغا ارفع شوي العب هنا */
         margin-top: 10%;
         gap: 3%;
     }
@@ -214,8 +212,6 @@ body{
         width: 40%;
     }
     
-
-
    .login {
     width: 100%;
     display: flex;
@@ -224,7 +220,15 @@ body{
     justify-content: space-between;
     gap: 30px;
    }
+   .login #inputbox{
+    width: 50%;
+    height: 6vh;
+    border: none;
+    background: #FFE7CE;
+    color: #7d7a7a;         
+    text-align: center;
 
+   }
     .login button{
         font-weight:bolder ;
         font-size: x-large;
@@ -268,7 +272,6 @@ body{
             width: 70%;
         }
         .note {
-            /* border: 2px solid red; */
             border-left: 6px solid #FF6666;
             margin: 5%;
             margin-left: 20%;
@@ -277,7 +280,6 @@ body{
           
 
         .Cards{
-            /* border: 2px solid red; */
             height: 90%;
             display: flex;
             flex-direction: column;
@@ -322,7 +324,7 @@ body{
                 border-radius: 40px;
                 width: 50%;
                 height: 100vh;
-                margin-top:6% ;
+                margin-top:1% ;
                 margin-left:25%;
             }
             .all p{
@@ -334,6 +336,10 @@ body{
                 margin-top:10% ;
                 background: #383d50f8;
 
+            }
+            .home{
+            width: 5%;
+            margin-left: 10%;
             }
         /* end result page */
     
