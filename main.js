@@ -3,6 +3,10 @@ function startgame(){
     location.href = "./mainPage.html"  
 
 }
+//go to the home page
+function gohome(){
+    location.href = "./index.html"  
+}
 
 
 //level 1
@@ -80,7 +84,8 @@ function updateCountdown(){
     let minutes = Math.floor(time/60);
     let sec = time % 60;
 
-    countdown.innerHTML=`${minutes}: ${sec}`
+    countdown.innerHTML=`${minutes}: ${sec}`;
     time--;
     setTimeout("nextpagefinal2()", 60000);
 }
+

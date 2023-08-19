@@ -46,15 +46,6 @@ body{
     gap: 30px;
    }
 
-          .login #inputbox{
-        width: 50%;
-        height: 6vh;
-        border: none;
-        background: #FFE7CE;
-        color: #7d7a7a; 
-        text-align: center;
-       }
-
     .login button{
         font-weight:bolder ;
         font-size: x-large;
@@ -220,15 +211,7 @@ body{
     justify-content: space-between;
     gap: 30px;
    }
-   .login #inputbox{
-    width: 50%;
-    height: 6vh;
-    border: none;
-    background: #FFE7CE;
-    color: #7d7a7a;         
-    text-align: center;
 
-   }
     .login button{
         font-weight:bolder ;
         font-size: x-large;
