@@ -70,13 +70,26 @@ body{
     /* End index page */
     
     /* Start main page */
-
-    .nav p{
-        border: 1px solid rgb(0, 255, 17); 
-        margin: 10px;
-        margin-top: 30px;
-        text-align: center; 
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
+         .thetimer{
+            width: 30%;
+            height: 40%;
+            font-size: 30px;
+            font-weight: 50;
+            border: 1px solid #f47d83ad; 
+            background: #f47d83ad;
+            border-radius: 6%;
+            margin: 10px;
+            display: inline-flex;
+            color: #EEE6E2;
+            margin-top: 30px;
+            align-items: center; 
+            justify-content: center;
+        }
 
     .text{
         /* border: 1px solid rgb(0, 255, 17);  */
@@ -131,26 +144,12 @@ body{
               height: 6vh;
               border: none;
           }
-/* 
-اعدل بعد ماسوي جافا
 
-
-
-    .btucard button{
-        margin: 5% 10%;
-        font-weight:bolder ;
-        font-size: x-large;
-        text-align:center;
-
-        border: none;
-
-    }   */
 
         /* End main page */
 
         /* start result page */       
                 .all{
-                    /* border: 1px solid #383D50; */
                     background: #383d50;
                     display: flex;
                     flex-direction: column;
@@ -190,9 +189,8 @@ body{
             /* Start index page */
 
     .container{
-        /* border: 1px solid red;  */
         width: auto;
-        height: 120vh;
+        height: 110vh;
         display: flex;
         flex-direction: column;
         margin-bottom: 5%;
@@ -201,7 +199,6 @@ body{
 
     }
     .logo{
-        /* border: 1px solid blue;  */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -215,22 +212,11 @@ body{
     }
     .logo #logoimg{
         width: 40%;
-        /* position: relative;
-        animation-name: example;
-        animation-duration: 4s;
-        animation-iteration-count: infinite; */
     }
     
-/* @keyframes example {
-    0%   {left:0px; top:0px;}
-    25%  { left:200px; top:0px;}
-    50%  { left:200px; top:0px;}
-    75%  { left:0px; top:0px;}
-    100% {left:0px; top:0px;}
-  } */
+
 
    .login {
-    /* border: 1px solid blue;  */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -251,26 +237,38 @@ body{
 
 
     /* Start main page */
-
-        .nav p{
-            border: 1px solid rgb(0, 255, 17); 
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+         .thetimer{
+            width: 10%;
+            height: 40%;
+            font-size: 30px;
+            font-weight: 50;
+            border: 1px solid #f47d83ad; 
+            background: #f47d83ad;
+            border-radius: 6%;
             margin: 10px;
+            display: inline-flex;
+            color: #EEE6E2;
             margin-top: 30px;
-            text-align: center; 
+            align-items: center; 
+            justify-content: center;
         }
 
         .text{
-            /* border: 1px solid rgb(0, 255, 17);  */
             margin-top: 50px;
             margin-bottom: 50px;
             display: flex;
             justify-content: center;
         }
         .text img{
-            /* border: 1px solid rgb(255, 179, 0);  */
             width: 70%;
         }
         .note {
+            /* border: 2px solid red; */
             border-left: 6px solid #FF6666;
             margin: 5%;
             margin-left: 20%;
@@ -279,13 +277,13 @@ body{
           
 
         .Cards{
-            /* border: 1px solid rgb(93, 0, 255);  */
+            /* border: 2px solid red; */
+            height: 90%;
             display: flex;
             flex-direction: column;
         }
 
         .thecard{
-        /* border: 1px solid rgb(93, 0, 255);  */
         display: flex; 
         flex-direction: row;
         align-items: center; 
@@ -313,7 +311,6 @@ body{
         /* start result page */
             
                 .all{
-                /* border: 1px solid #383D50; */
                 background: #383d50;
                 display: flex;
                 flex-direction: column;
@@ -339,5 +336,6 @@ body{
 
             }
         /* end result page */
+    
 
 }

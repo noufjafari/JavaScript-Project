@@ -4,6 +4,7 @@ function startgame(){
 
 }
 
+
 //level 1
 //if win goes to nextpage
 function changewin(){
@@ -33,7 +34,9 @@ function gonext(){
     nextpage()
 }
 
-//the level
+
+
+//level 2
 function nextpage(){
     location.href = "./mainpage2.html"  
 }
@@ -46,6 +49,8 @@ function changewin2(){
 function nextpagefinal1(){
     location.href = "./resultPage.html"  
 }
+
+
 
 //if loss try agin and and go to result loss page
 function changeloss3(){
@@ -61,4 +66,21 @@ function changeloss4(){
 
 function nextpagefinal2(){
     location.href = "./resultPage2.html"  
+}
+
+
+
+//the timer to count if the time is finish = loss
+
+let theminutes = 1;
+let time = theminutes *60;
+let countdown = document.getElementById('timer');
+setInterval(updateCountdown,1000);
+function updateCountdown(){
+    let minutes = Math.floor(time/60);
+    let sec = time % 60;
+
+    countdown.innerHTML=`${minutes}: ${sec}`
+    time--;
+    setTimeout("nextpagefinal2()", 60000);
 }
