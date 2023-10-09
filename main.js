@@ -1,11 +1,13 @@
 //go to the game page
 function startgame(){
+    save()
     location.href = "./mainPage.html"  
 
 }
 //go to the home page
 function gohome(){
     location.href = "./index.html"  
+
 }
 
 
@@ -16,9 +18,13 @@ function changewin(){
     img.src="girlopendoor.svg"
     setTimeout("changenext()", 100);
 }
-function changenext(){
-    alert("Great you win now go to the next");
-    nextpage()
+function changenext(){                
+    Swal.fire({
+                icon: 'success',
+                title: 'Great',
+                text: 'You win now go to the next',
+                })
+              setTimeout(" nextpage()", 2000);
 }
 
 //if loss try agin and and go to next page
@@ -34,8 +40,13 @@ function changeloss2(){
     setTimeout("gonext()", 300); 
 }
 function gonext(){
-    alert("Opps Wrong door try agin");
-    nextpage()
+    Swal.fire({
+        icon: 'error',
+        title: 'Opps',
+        text:'Wrong door try agin',
+        })
+      setTimeout(" nextpage()", 3000);
+
 }
 
 
@@ -88,4 +99,16 @@ function updateCountdown(){
     time--;
     setTimeout("nextpagefinal2()", 60000);
 }
+
+
+// save the name from the local storge 
+function save() { 
+    var fieldValue = document.getElementById('textfield').value; 
+    localStorage.setItem('text', fieldValue); 
+} 
+    
+// Reading data 
+var storedValue = localStorage.getItem('text'); 
+document.querySelector(".thename").innerHTML = storedValue;
+
 

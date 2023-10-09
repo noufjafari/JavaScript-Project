@@ -17,8 +17,14 @@ body{
 
     .container{
         width: auto;
-        height: 10
-        0vh;
+        height: 99vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container1{
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
     }
@@ -26,7 +32,6 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top:40%;
         gap: 10%;
     }
     .logo #logoname{
@@ -48,14 +53,36 @@ body{
 
     .login button{
         font-weight:bolder ;
-        font-size: x-large;
+        font-size: medium;
         text-align:center;
-        width: 50%;
-        height: 6vh;
+        width: 20%;
         border: none;
 
        }
 
+       
+   .txtinput input{
+    border: none;
+    background: #ebfffc;
+    color: #555;
+    height: 40px;
+    width: 40%;
+    margin-bottom: 25%;
+    border-radius: 40px;
+    text-align: center;
+    flex: 1;
+    min-height: 5px;
+    font-size: 10px;
+}
+
+.txtinput{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    
+}
+     
     /* End index page */
     
     /* Start main page */
@@ -65,9 +92,9 @@ body{
         align-content: center;
     }
          .thetimer{
-            width: 30%;
-            height: 40%;
-            font-size: 30px;
+            width: 20%;
+            height: 20%;
+            font-size: 20px;
             font-weight: 50;
             border: 1px solid #f47d83ad; 
             background: #f47d83ad;
@@ -94,7 +121,9 @@ body{
         border-left: 6px solid #FF6666;
         margin: 10%;
         width: 80%;
+        font-size: small;
       }
+
 
     .Cards{
         display: flex;
@@ -122,17 +151,17 @@ body{
               margin-top: 2%;
               margin-left: 40%;
               font-weight:bolder ;
-              font-size: x-large;
+              font-size: medium;
               text-align:center;
               width: 20%;
-              height: 6vh;
               border: none;
           }
 
 
         /* End main page */
 
-        /* start result page */       
+        /* start result page */  
+     
                 .all{
                     background: #383d50;
                     display: flex;
@@ -145,26 +174,27 @@ body{
                     border-radius: 40px;
                     width: 50%;
                     height: 50vh;
-                    margin-top:10% ;
-                    margin-left:25%;
+                    padding: 10px 30px;
+                    margin-top:20% ;
+                    margin-left:18%;
                 }
                 .all p{
-                    margin-top:20% ;
-                    background: #383d50f8;
-    
-                }
-                .all img{
-                    margin-top:20% ;
+                    margin-top:35% ;
+                    margin-bottom: 25%;
                     background: #383d50f8;
     
                 }
 
+                .all img{
+                    width:60%;
+                }
+             
                 .home{
-                    width: 5%;
+                    width: 8%;
                     margin-top: 20%;
                     margin-left: 10%;
                     }
-    
+                  
                      /* end result page */
 
 }
@@ -180,19 +210,25 @@ body{
 
     .container{
         width: auto;
-        height: 110vh;
+        height: 0vh;
         display: flex;
         flex-direction: column;
         margin-bottom: 5%;
-        margin-top: 1%;
-
-
     }
+
+    .container1{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        /* margin-bottom: 5%; */
+        margin-top: 1%;
+    }
+
     .logo{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 10%;
+        margin-top: 7%;
         gap: 3%;
     }
     .logo #logoname{
@@ -212,11 +248,33 @@ body{
     gap: 30px;
    }
 
+   .txtinput input{
+    border: none;
+    background: #ebfffc;
+    color: #555;
+    height: 40px;
+    width: 30%;
+    margin-bottom: 25%;
+    border-radius: 40px;
+    text-align: center;
+    flex: 1;
+    min-height: 5px;
+    font-size: 18px;
+}
+
+.txtinput{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    
+}
+
     .login button{
         font-weight:bolder ;
         font-size: x-large;
         text-align:center;
-        width: 50%;
+        width: 20%;
         height: 6vh;
         border: none;
        }
@@ -252,7 +310,7 @@ body{
             justify-content: center;
         }
         .text img{
-            width: 70%;
+            width:50%;
         }
         .note {
             border-left: 6px solid #FF6666;
@@ -263,7 +321,7 @@ body{
           
 
         .Cards{
-            height: 90%;
+            height: 40%;
             display: flex;
             flex-direction: column;
         }
@@ -278,10 +336,15 @@ body{
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
     }
+
+    .btucard img{
+        width: 65%;
+      }
         .btucard button {
             margin-top: 10%;
-            margin-left: 35%;
+            margin-left: 0%;
             font-weight:bolder ;
             font-size: x-large;
             text-align:center;
@@ -305,10 +368,10 @@ body{
                 font-size: 200%;
                 color:#FF6666;
                 border-radius: 40px;
-                width: 50%;
-                height: 100vh;
+                width: 40%;
+                height: 70vh;
                 margin-top:1% ;
-                margin-left:25%;
+                margin-left:30%;
             }
             .all p{
                 margin-top:10% ;
@@ -316,12 +379,14 @@ body{
 
             }
             .all img{
+                width: 40%;
                 margin-top:10% ;
                 background: #383d50f8;
 
             }
             .home{
-            width: 5%;
+            width: 3%;
+            margin: 2%;
             margin-left: 10%;
             }
         /* end result page */
